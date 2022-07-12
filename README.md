@@ -1,4 +1,4 @@
-# AlgoExpertCodingProblems
+# Leetcode
 
 1. [How this repository is structured](#how_structured)<br/>
 2. [What languages are used for problems](#languages_used)<br/>
