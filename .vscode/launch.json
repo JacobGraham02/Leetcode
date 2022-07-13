@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch PalindromeNumber",
+            "request": "launch",
+            "mainClass": "Easy.PalindromeNumber",
+            "projectName": "GithubRepository_1d7a96fd"
+        },
+        {
+            "type": "java",
             "name": "Launch TwoSum",
             "request": "launch",
             "mainClass": "Easy.TwoSum",
