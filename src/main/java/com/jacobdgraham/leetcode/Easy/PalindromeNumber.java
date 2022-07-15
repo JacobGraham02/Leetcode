@@ -7,7 +7,7 @@ public class PalindromeNumber {
      * @param x
      * @return
      */
-    private boolean isPalindromeStringConversion(int x) {
+    public boolean isPalindromeStringConversion(int x) {
         String number = String.valueOf(x);
         StringBuilder reversedString = new StringBuilder(number).reverse();
         return reversedString.toString().equals(number);
@@ -19,7 +19,7 @@ public class PalindromeNumber {
      * @param x
      * @return
      */
-    private boolean isPalindromeNoConversion(int x) {
+    public boolean isPalindromeNoConversion(int x) {
         // First, let us check for boundary conditions like x not negative and such
         // The number itself cannot be less than 0 (left side of OR operator). Furthermore, the first and last digit must both be a 0
         // for a palindrome to exist (right side of OR operator).
