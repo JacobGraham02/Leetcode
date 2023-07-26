@@ -1,2 +1,4 @@
 target/
 Junit5UserGuidePDF.pdf
+../.vscode
+.vscode

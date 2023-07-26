@@ -1,8 +1,8 @@
 package com.jacobdgraham.leetcode.medium;
 
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
 final public class AddTwoNumbersTest {
 
