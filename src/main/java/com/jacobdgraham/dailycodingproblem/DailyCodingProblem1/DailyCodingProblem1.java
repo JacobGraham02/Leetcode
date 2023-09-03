@@ -1,4 +1,4 @@
-package com.jacobdgraham.dailycodingproblem;
+package com.jacobdgraham.dailycodingproblem.DailyCodingProblem1;
 
 /**
  * Given an array of integers, return a new array where each element in the new array is the number of smaller elements to the right of that

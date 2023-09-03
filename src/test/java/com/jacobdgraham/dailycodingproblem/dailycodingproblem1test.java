@@ -6,6 +6,8 @@ import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 
+import com.jacobdgraham.dailycodingproblem.DailyCodingProblem1.DailyCodingProblem1;
+
 public class dailycodingproblem1test {
     private static DailyCodingProblem1 dailyCodingProblem1;
 
