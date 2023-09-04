@@ -1,4 +1,4 @@
-package com.jacobdgraham.dailycodingproblem;
+package com.jacobdgraham.dailycodingproblem.DailyCodingProblem1;
 
 import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 

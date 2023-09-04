@@ -1,4 +1,4 @@
-package com.jacobdgraham.dailycodingproblem;
+package com.jacobdgraham.dailycodingproblem.DailyCodingProblem2;
 
 import java.util.ArrayList;
 import java.util.List;
