@@ -1,7 +1,9 @@
 package com.jacobdgraham.leetcode.easy;
 
-import com.jacobdgraham.leetcode.easy.ListNode;
+
 import com.jacobdgraham.leetcode.easy.MergeTwoSortedLists;
+import com.jacobdgraham.leetcode.utils.ListNode;
+
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 

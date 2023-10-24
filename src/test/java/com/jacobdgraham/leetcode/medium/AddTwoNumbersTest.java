@@ -4,6 +4,8 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import org.junit.jupiter.api.Test;
 
+import com.jacobdgraham.leetcode.utils.ListNode;
+
 final public class AddTwoNumbersTest {
 
     final AddTwoNumbers addTwoNumbersInstance = new AddTwoNumbers();
