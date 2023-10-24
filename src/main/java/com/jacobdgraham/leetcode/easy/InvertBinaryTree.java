@@ -1,6 +1,7 @@
 package com.jacobdgraham.leetcode.easy;
 
 import java.util.Stack;
+import com.jacobdgraham.leetcode.utils.TreeNode;
 
 /**
  * Given the root of a binary tree, invert the tree, and return its root.

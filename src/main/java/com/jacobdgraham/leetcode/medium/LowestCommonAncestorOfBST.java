@@ -1,5 +1,6 @@
 package com.jacobdgraham.leetcode.medium;
 
+import com.jacobdgraham.leetcode.utils.BinaryTreeNode;
 import com.jacobdgraham.leetcode.utils.TreeNode;
 
 /**
@@ -32,7 +33,7 @@ Constraints:
  */
 public class LowestCommonAncestorOfBST {
     
-    public TreeNode lowestCommonAncestorIterative(TreeNode root, TreeNode p, TreeNode q) {
+    public BinaryTreeNode lowestCommonAncestorIterative(BinaryTreeNode root, BinaryTreeNode p, BinaryTreeNode q) {
         if (root == null) {
             return null;
         }
@@ -58,7 +59,7 @@ public class LowestCommonAncestorOfBST {
         return null;
     }
 
-    public TreeNode lowestCommonAncestorRecursion(TreeNode root, TreeNode p, TreeNode q) {
+    public BinaryTreeNode lowestCommonAncestorRecursion(BinaryTreeNode root, BinaryTreeNode p, BinaryTreeNode q) {
         if (root == null) {
             return null;
         }

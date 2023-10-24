@@ -8,6 +8,8 @@ import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 
+import com.jacobdgraham.leetcode.utils.TreeNode;
+
 public class InvertBinaryTreeTest {
     
     private static InvertBinaryTree invertBinaryTree;
