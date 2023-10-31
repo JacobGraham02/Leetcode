@@ -1,4 +1,4 @@
-package com.jacobdgraham.codesignal;
+package com.jacobdgraham.codesignal.CompanyChallenges.Achieve;
 
 import java.util.Arrays;
 import java.util.Comparator;
