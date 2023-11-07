@@ -10,50 +10,23 @@ import org.junit.jupiter.api.Test;
 import com.jacobdgraham.codesignal.InterviewPractice.LinkedLists.RemoveKFromList;
 import com.jacobdgraham.codesignal.InterviewPractice.LinkedLists.SinglyLinkedListNode;
 import com.jacobdgraham.codesignal.InterviewPractice.LinkedList.utils.LinkedListsEqual;
+import com.jacobdgraham.codesignal.InterviewPractice.LinkedList.utils.LinkedLists;
 
-public class removeKFromListTest {
+public class RemoveKFromListTest {
     
     private static RemoveKFromList removeKFromList;
+    private static LinkedLists linkedLists;
 
     @BeforeAll
     final static void setUp() {
         removeKFromList = new RemoveKFromList<>();
+        linkedLists = new LinkedLists();
     }    
-
-    private final SinglyLinkedListNode<Integer> buildRegularLinkedList() {
-        SinglyLinkedListNode<Integer> node1 = new SinglyLinkedListNode<>(3);
-        SinglyLinkedListNode<Integer> node2 = new SinglyLinkedListNode<>(1);
-        SinglyLinkedListNode<Integer> node3 = new SinglyLinkedListNode<>(2);
-        SinglyLinkedListNode<Integer> node4 = new SinglyLinkedListNode<>(3);
-        SinglyLinkedListNode<Integer> node5 = new SinglyLinkedListNode<>(4);
-        SinglyLinkedListNode<Integer> node6 = new SinglyLinkedListNode<>(5);
-
-        node1.next = node2;
-        node2.next = node3;
-        node3.next = node4;
-        node4.next = node5;
-        node5.next = node6;
-
-        return node1;
-    }
-
-    private final SinglyLinkedListNode<Integer> buildExpectedLinkedListResult() {
-        SinglyLinkedListNode<Integer> node1 = new SinglyLinkedListNode<>(1);
-        SinglyLinkedListNode<Integer> node2 = new SinglyLinkedListNode<>(2);
-        SinglyLinkedListNode<Integer> node3 = new SinglyLinkedListNode<>(4);
-        SinglyLinkedListNode<Integer> node4 = new SinglyLinkedListNode<>(5);
-
-        node1.next = node2;
-        node2.next = node3;
-        node3.next = node4;
-
-        return node1;
-    }
 
     @Test
     final void testOnRegularLinkedList() {
-        final SinglyLinkedListNode<Integer> singlyLinkedListNodes = buildRegularLinkedList();
-        final SinglyLinkedListNode<Integer> singlyLinkedListResult = buildExpectedLinkedListResult();
+        final SinglyLinkedListNode<Integer> singlyLinkedListNodes = linkedLists.buildRegularLinkedList();
+        final SinglyLinkedListNode<Integer> singlyLinkedListResult = linkedLists.buildExpectedLinkedListResult();
         final SinglyLinkedListNode<Integer> actualResult = removeKFromList.solution(singlyLinkedListNodes, 3);
         assertTrue(LinkedListsEqual.areLinkedListsEqual(singlyLinkedListResult, actualResult));
     }
