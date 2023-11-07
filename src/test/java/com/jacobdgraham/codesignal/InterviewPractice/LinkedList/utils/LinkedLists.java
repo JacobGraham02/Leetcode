@@ -46,4 +46,24 @@ public final class LinkedLists {
 
         return node1;
     }
+
+    public static final SinglyLinkedListNode<Integer> addXHugeNumbersListResultA() {
+        SinglyLinkedListNode<Integer> node1 = new SinglyLinkedListNode<>(9876);
+        SinglyLinkedListNode<Integer> node2 = new SinglyLinkedListNode<>(5432);
+        SinglyLinkedListNode<Integer> node3 = new SinglyLinkedListNode<>(1999);
+
+        node1.next = node2;
+        node2.next = node3;
+
+        return node1;
+    }
+
+    public static final SinglyLinkedListNode<Integer> addXHugeNumbersListResultB() {
+        SinglyLinkedListNode<Integer> node1 = new SinglyLinkedListNode<>(1);
+        SinglyLinkedListNode<Integer> node2 = new SinglyLinkedListNode<>(8001);
+
+        node1.next = node2;
+
+        return node1;
+    }
 }
